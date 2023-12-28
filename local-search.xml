@@ -4,11 +4,38 @@
   
   
   <entry>
-    <title>关于我和不定期可能更新的杂谈</title>
-    <link href="/2023/10/06/about-me/"/>
-    <url>/2023/10/06/about-me/</url>
+    <title>从零开始的图形学与游戏开发（零）</title>
+    <link href="/2023/12/28/graphics/graphics_note_0/"/>
+    <url>/2023/12/28/graphics/graphics_note_0/</url>
     
-    <content type="html"><![CDATA[<h1 id="关于个人主页"><a href="#关于个人主页" class="headerlink" title="关于个人主页"></a>关于个人主页</h1><h2 id="关于个人"><a href="#关于个人" class="headerlink" title="关于个人"></a>关于个人</h2><p>一个喜欢传统纸质记录的人拖延至今终于搭建了个人主页。</p><p>本质是一个求知欲旺盛啥都想学但啥都不精的人，兴趣爱好是情报收集和ACGN，喜欢RPG和文字ADV游戏，守备范围也许算宽，梦想的职业是——拾穗人。</p><div class="note note-success">            <p><strong>有关拾穗人：</strong><a href="https://ff14.huijiwiki.com/wiki/%E8%90%A8%E9%9B%B7%E5%AE%89#%E6%8B%BE%E7%A9%97%E4%BA%BA%E6%80%BB%E4%BC%9A">拾穗人与拾穗人总会</a><br>是梦中情职，大概是不存在的。</p>          </div><p>主页上大概会记录一些笔记归档、杂谈和一些计划中和未计划的事，也可能会记录一些豆知识。</p><p>最近在学习图形学和游戏引擎。</p><h2 id="关于Pseudo-Zanarkand"><a href="#关于Pseudo-Zanarkand" class="headerlink" title="关于Pseudo Zanarkand"></a>关于Pseudo Zanarkand</h2><p>第一次见到Pseudo一词是在学习专业基础时，Pseudo code即伪代码，取“伪”一义；Zanarkand是游戏Final Fantasy X中对于主角一行人极为重要的地方，其意义对我也产生的重要的影响，是一个悲但浪漫的地方。</p><p>现实中大抵是不会存在这样的地方的，希望能和祈之子一样在梦里构筑自己的Zanarkand。</p><h2 id="写博客的原因"><a href="#写博客的原因" class="headerlink" title="写博客的原因"></a>写博客的原因</h2><p>“正经人谁写日记啊！”</p><p>以及也许是一些文字练习。</p><p>一个比较重要的原因后续更新。</p><p>各种内容还在学习中。</p><hr><p><strong>2023.10.12更新</strong></p><p>一个重要的原因是受到了一个喜欢的up主（Lunamos）激励。Lunamos也是一名游戏玩家，有一个专题节目叫“游戏通鉴”，内容主要是怀旧主题，讲述一些老游戏的游戏体验和故事的主要内容，并且还有多种讲述方式，其中以“电子书”形式的讲述最引入入胜，以第一人称叙述将听众&#x2F;观众带入故事当中，在通勤或者吃饭的时候也可以当作背景音。</p><p>另外根据Luna自己在节目中的叙述，我个人推测是在日本从事图形学开发的相关工作，这也一定程度上让我找回了当初专业选择的初心，也促使我在前一段时间一直沉浸在图形学的相关知识中（虽然没入脑多少）。</p><p>在我看来一个文案极佳，善于演说的人突然有一天悄没声的在自己的小号上开始了电台节目，个人在电台里叙说是为了锻炼自己的口才。于是我开始了自己早已打算的博客搭建，一来是向他学习，二来是慢慢找回写作的手感，同时也是锻炼自己的逻辑思维，改善我长时间以来下笔写文文字支离破碎的问题。</p><h1 id="TodoList"><a href="#TodoList" class="headerlink" title="TodoList"></a>TodoList</h1><ul><li>记录日课</li><li>某些企划的文字记录</li><li>最近在阅读游戏设计相关书籍，也许会慢慢开始写一些游戏日志（主要谈游玩体验）</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>严格来说，并不能算是真正的从零开始进行图形学的学习。在之前其实已经有看过相关课程对图形学的知识体系有了大致的概念，这里只是希望重新梳理知识点并记录学习的过程。</p><p>关于自己，其实在以前并不是研究图形学相关方向的，只是兴趣使然，也算是拓宽自己的知识面，选择了这样一个方向进行私下的研究，也并非希望研究出什么具体的成果来，但至少谈起这一方面希望自己有一个完整的知识体系架构。</p><h1 id="计划与阅读计划"><a href="#计划与阅读计划" class="headerlink" title="计划与阅读计划"></a>计划与阅读计划</h1><p><strong>更新中</strong></p><ol><li>以GAMES101为线索，从数学基础开始，沿着数学在不同方面的应用来进行学习与记录；</li><li>大致的顺序为：数学基础-图形变换-几何体表示-光线追踪-着色-阴影-物理相关内容；该顺序参考了“3D游戏编程中的数学”一书的目录整理而来，具体记录时可能视情况有所变更；</li><li>关于游戏开放方面的内容，在图形学基础之后进行目标设立；</li><li>具体实施时，先阅读相关参考资料后进行记录，为此设立暂定的阅读计划：</li></ol><ul><li>Mathematics for 3D Game Programming and Computer Graphics</li><li>*Computational Geometry</li><li>Fundamentals of Computer Graphics</li><li>Real-Time Rendering</li></ul><h1 id="笔记导览"><a href="#笔记导览" class="headerlink" title="笔记导览"></a>笔记导览</h1><h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h1 id="更新记录"><a href="#更新记录" class="headerlink" title="更新记录"></a>更新记录</h1><ol><li>2023-12-28：叙述整体学习框架，设立相关计划于目标；</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>图形学</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>图形学</tag>
+      
+      <tag>游戏开发</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>关于我和不定期可能更新的杂谈</title>
+    <link href="/2023/12/05/about-me/"/>
+    <url>/2023/12/05/about-me/</url>
+    
+    <content type="html"><![CDATA[<h1 id="关于个人主页"><a href="#关于个人主页" class="headerlink" title="关于个人主页"></a>关于个人主页</h1><h2 id="关于个人"><a href="#关于个人" class="headerlink" title="关于个人"></a>关于个人</h2><p>一个喜欢传统纸质记录的人拖延至今终于搭建了个人主页。</p><p>本质是一个求知欲旺盛啥都想学但啥都不精的人，兴趣爱好是情报收集和ACGN，喜欢RPG和文字ADV游戏，守备范围也许算宽，梦想的职业是——拾穗人。</p><div class="note note-success">            <p><strong>有关拾穗人：</strong><a href="https://ff14.huijiwiki.com/wiki/%E8%90%A8%E9%9B%B7%E5%AE%89#%E6%8B%BE%E7%A9%97%E4%BA%BA%E6%80%BB%E4%BC%9A">拾穗人与拾穗人总会</a><br>是梦中情职，大概是不存在的。</p>          </div><p>主页上大概会记录一些笔记归档、杂谈和一些计划中和未计划的事，也可能会记录一些豆知识。</p><p>最近在学习图形学和游戏引擎。</p><h2 id="关于Pseudo-Zanarkand"><a href="#关于Pseudo-Zanarkand" class="headerlink" title="关于Pseudo Zanarkand"></a>关于Pseudo Zanarkand</h2><p>第一次见到Pseudo一词是在学习专业基础时，Pseudo code即伪代码，取“伪”一义；Zanarkand是游戏Final Fantasy X中对于主角一行人极为重要的地方，其意义对我也产生的重要的影响，是一个悲但浪漫的地方。</p><p>现实中大抵是不会存在这样的地方的，希望能和祈之子一样在梦里构筑自己的Zanarkand。</p><h2 id="写博客的原因"><a href="#写博客的原因" class="headerlink" title="写博客的原因"></a>写博客的原因</h2><p>“正经人谁写日记啊！”</p><p>以及也许是一些文字练习。</p><p>一个比较重要的原因后续更新。</p><p>各种内容还在学习中。</p><hr><p><strong>2023.10.12更新</strong></p><p>一个重要的原因是受到了一个喜欢的up主（Lunamos）激励。Lunamos也是一名游戏玩家，有一个专题节目叫“游戏通鉴”，内容主要是怀旧主题，讲述一些老游戏的游戏体验和故事的主要内容，并且还有多种讲述方式，其中以“电子书”形式的讲述最引入入胜，以第一人称叙述将听众&#x2F;观众带入故事当中，在通勤或者吃饭的时候也可以当作背景音。</p><p>另外根据Luna自己在节目中的叙述，我个人推测是在日本从事图形学开发的相关工作，这也一定程度上让我找回了当初专业选择的初心，也促使我在前一段时间一直沉浸在图形学的相关知识中（虽然没入脑多少）。</p><p>在我看来一个文案极佳，善于演说的人突然有一天悄没声的在自己的小号上开始了电台节目，个人在电台里叙说是为了锻炼自己的口才。于是我开始了自己早已打算的博客搭建，一来是向他学习，二来是慢慢找回写作的手感，同时也是锻炼自己的逻辑思维，改善我长时间以来下笔写文文字支离破碎的问题。</p><h1 id="更新中与已完结"><a href="#更新中与已完结" class="headerlink" title="更新中与已完结"></a>更新中与已完结</h1><ul><li><a href="!--swig%EF%BF%BC1--">从零开始的图形学与游戏开发</a></li></ul><h1 id="TodoList"><a href="#TodoList" class="headerlink" title="TodoList"></a>TodoList</h1><ul><li>记录日课</li><li>某些企划的文字记录</li><li>最近在阅读游戏设计相关书籍，也许会慢慢开始写一些游戏日志（主要谈游玩体验）</li></ul>]]></content>
     
     
     
