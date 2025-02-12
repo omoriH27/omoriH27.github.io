@@ -16,17 +16,22 @@
   <meta name="author" content="Omori H">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="归档">
-<meta property="og:url" content="https://omorih27.github.io/archives/2024/06/index.html">
+    <meta name="description" content="一个什么都想做和什么都没心思做的周末将近结束之时的迷思。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="接近2024年尾声的迷思">
+<meta property="og:url" content="https://omorih27.github.io/others/nearly_end_of_2024.html">
 <meta property="og:site_name" content="Pseudo Zanarkand">
+<meta property="og:description" content="一个什么都想做和什么都没心思做的周末将近结束之时的迷思。">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-12-22T14:35:53.000Z">
+<meta property="article:modified_time" content="2024-12-23T10:02:32.507Z">
 <meta property="article:author" content="Omori H">
+<meta property="article:tag" content="杂谈">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>归档 - Pseudo Zanarkand</title>
+  <title>接近2024年尾声的迷思 - Pseudo Zanarkand</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -186,7 +191,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="归档"></span>
+            <span id="subtitle" data-typed-text="接近2024年尾声的迷思"></span>
           
         </div>
 
@@ -213,23 +218,23 @@
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="list-group">
-  <p class="h4">共计 6 篇文章</p>
-  <hr>
-  
-  
-    
-      
-      <p class="h5">2024</p>
-    
-    <a href="/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/report/weekly_report240617/" class="list-group-item list-group-item-action">
-      <time>06-17</time>
-      <div class="list-group-item-title">2024.6.10-6.16周报</div>
-    </a>
-  
-</div>
+<article class="page-content">
+  <p>2024年的倒数第二个周末，坐在电脑面前老想干点什么，但一旦打开之后又没了心思，这时候大概反应过来——既要又要的老毛病又犯了。</p>
+<h2 id="从拖延变得不过脑子再变得拖延"><a href="#从拖延变得不过脑子再变得拖延" class="headerlink" title="从拖延变得不过脑子再变得拖延"></a>从拖延变得不过脑子再变得拖延</h2><p>回头翻了翻阅读笔记，发现<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV14q421P7Yw/?spm_id_from=333.337.search-card.all.click&vd_source=80a2efa36aaa51a8f70d5aff66114a17">Luna的专注力专题第一部分</a>都已经是上半年的时候发布的了。在第一部分里，他基于福格行为模型对专注力进行了建模，我觉得甚为有趣，在这里也进行一个简述。</p>
+<p>福格行为模型认为，行为的发生需要三个条件：动机、能力、提示，并且可以将其定义为一个公式：</p>
+<p>$$<br>B &#x3D; M \times A \times P<br>$$</p>
+<p>其中，$B$ 是行为，$M$ 是动机，$A$ 是能力，$P$ 是提示。这个模型可以被解释为：当动机、能力、提示都存在时，行为就有可能发生。这种可能性可以被定义为一种概率，实际上也可以理解为对这个行为专注进行的概率。而对专注力的影响可以分为三个过程：</p>
+<ul>
+<li>长效工作（行为）$B_i$被打断；</li>
+<li>注意力以概率$p$被吸引到$B_j$，可以记为$P(B_{n+1}&#x3D;B_j|B_n&#x3D;B_i)$；</li>
+<li>持续进行$B_j$。</li>
+</ul>
+<p>借助福格行为模型，并将福格行为模型缩放到$[0,1]$区间上，这种转移的概率可以被定义为：$$P(T&#x3D;t,B_{n+1}&#x3D;B_j|B_n&#x3D;B_i)&#x3D;\frac{1-e^{-\lambda t}}{1+e^{-\lambda t}}$$<br>其中参数$\lambda$可以被理解为注意力转移的速率，定义为：$$\lambda&#x3D;\frac{M_jA_jP_j}{M_iA_i}$$</p>
 
 
+  
+
+</article>
 
 
 

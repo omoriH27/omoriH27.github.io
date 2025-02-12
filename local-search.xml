@@ -4,79 +4,25 @@
   
   
   <entry>
-    <title>2024.7.15-7.21周报</title>
-    <link href="/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/report/weekly_report240721/"/>
-    <url>/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/report/weekly_report240721/</url>
+    <title>Rust中的特征Trait杂谈</title>
+    <link href="/Rust/rust/traits/"/>
+    <url>/Rust/rust/traits/</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="例行的废话开头"><a href="#例行的废话开头" class="headerlink" title="例行的废话开头"></a>例行的废话开头</h1><p>这一周是重新出发的一周，每天的日程安排都被填得满满当当，就算有空缺也被我想法设法塞了很多东西进去。唯一不足的是我的午休时间计划被一周的雨给完全打乱了。虽然我很喜欢下雨天，但果然通勤路上的大雨还是让人厌烦的。不过也有好的地方，喜欢每天回家的路上的某一段路程，感觉特别疗愈，要是前面是一篇湖或者海的话，也许视觉效果会更好，等到有空或者不再当五街兄弟的那一天，再录一段放进来好了。</p><p>（🎶Bee🐝Bee🐝Honey❤️Bee🐝Lovely❤️）</p><h1 id="“成为小工蜂🐝🐝”的一周干了什么"><a href="#“成为小工蜂🐝🐝”的一周干了什么" class="headerlink" title="“成为小工蜂🐝🐝”的一周干了什么"></a>“成为小工蜂🐝🐝”的一周干了什么</h1><p>这周脑内始终环绕着《Bee My Honey》，每天都是边干活脑内边单曲循环，已经是一个合格的工蜂了。搭建顺利的话，希望大家也能在本页面欣赏到Honey·B·Lovely的甜美歌喉。</p><p>（🎶Bee🐝Bee🐝Honey❤️Bee🐝Lovely❤️）</p><h2 id="1-算法练习记录🐝"><a href="#1-算法练习记录🐝" class="headerlink" title="1 算法练习记录🐝"></a>1 算法练习记录🐝</h2><p>这一周由于工作原因并没有每天去关注日替的算法题，而是参考了0x3F的<a href="https://leetcode.cn/circle/discuss/tXLS3i/">算法题单</a>进行专题式的刷题，希望再次对这些基本的模型和常见的算法题型进行巩固，以至在遇到复杂问题时有清晰的分析思路。</p><p>本周主要的练习内容是<a href="https://leetcode.cn/circle/discuss/0viNMK/"><strong>滑动窗口</strong></a>。实际上在<strong>滑动窗口</strong>这一专题下又细分了一些不同类型的窗口题，本周主要关注的内容是基础中的基础——定长的滑动窗口，具体的内容不在这里进行赘述，可以参考题单复习，因为定长窗口情况下的分析较为单一。</p><p>（🎶Bee🐝Bee🐝Honey❤️Bee🐝Lovely❤️）</p><h2 id="2-Rust🐝🐝"><a href="#2-Rust🐝🐝" class="headerlink" title="2 Rust🐝🐝"></a>2 Rust🐝🐝</h2><p>是的，又把Rust给捡了起来。个人认为，符合自己的路线还是走冷门路线，虽然说Rust现在也不算冷门，或多或少也算个“网红”（黑红也是红）语言，但是实际上市场上的岗位还是不多，且涉及到的开发方向也不算太多，但由于它的特性实在过好，也让我又有了捡起来它的欲望。</p><p>本周主要是理清了后期的学习方向。首先，学习路线是按照<a href="https://course.rs/about-book.html">Rust语言圣经</a>一书的大纲来制定的，该书的作者总结了常见的基本Rust参考资料里的内容，并添加了一些重要的但这些资料中没有涉及的内容来完善知识体系；另外，在本书里面还有几个小项目用于巩固Rust编程，一个是<strong>minigrep</strong>，这在Rust官方文档中也作为了练手的项目；另外两个一个是<strong>Web服务器</strong>，用于熟悉Rust中的并发开发，另一个是<strong>简单Redis</strong>的实现，在这个项目中也提到了Rust中重要且常用的异步运行时库<a href="https://github.com/tokio-rs/tokio"><code>tokio</code></a>，这在面试中也算是一个比较重要的考点。</p><p>目前已过的内容有：</p><ul><li>Rust基础类型、复合类型</li><li>所有权与借用</li><li>流程控制</li><li>模式匹配</li></ul><p>另外，后期还期望使用Rust写一个大项目进行练手，希望包括的技术栈有：</p><ul><li>Next.js</li><li>wasm</li></ul><p>一些前端的技术栈也纳入学习范畴；甚至希望学习three.js，向“数字孪生”沾沾边。</p><p>（🎶Bee🐝Bee🐝Honey❤️Bee🐝Lovely❤️）</p><h2 id="3-外语学习🐝🐝🐝"><a href="#3-外语学习🐝🐝🐝" class="headerlink" title="3 外语学习🐝🐝🐝"></a>3 外语学习🐝🐝🐝</h2><p>我搁置了，我有罪。（听Bee My Honey的歌词是否也是一种外语学习）</p><p>另外，由于词根书后面一些词根下的单词过多，好像根据<a href="_posts/report/weekly_report240617.md">6月周报（一）</a>那样的记录方式过于浪费时间，考虑其他的记录方式。</p><p>（🎶Bee🐝Bee🐝Honey❤️Bee🐝Lovely❤️）</p><h2 id="4-阅读记录🐝🐝🐝🐝"><a href="#4-阅读记录🐝🐝🐝🐝" class="headerlink" title="4 阅读记录🐝🐝🐝🐝"></a>4 阅读记录🐝🐝🐝🐝</h2><p>本周阅读的是好几周前买回来的《闪光的哈萨维》原著，目前第一本都还没读完，最近阅读速度太慢力，希望马夫蒂原谅我。</p><p>（🎶Bee🐝Bee🐝Honey❤️Bee🐝Lovely❤️）</p><h2 id="5-技术文档阅读记录🐝🐝🐝🐝🐝"><a href="#5-技术文档阅读记录🐝🐝🐝🐝🐝" class="headerlink" title="5 技术文档阅读记录🐝🐝🐝🐝🐝"></a>5 技术文档阅读记录🐝🐝🐝🐝🐝</h2><p>本周的技术文档主要是<a href="https://pphc.lvwenhan.com/">PPHC</a>（高并发的哲学原理），但并未从头开始看，主要是从数据库优化的部分，从MySQL的InnoDB引擎的底层原理一节开始看，进一步熟悉InnoDB的性质，另外辅以<a href="https://book.douban.com/subject/24708143/">《MySQL技术内幕 InnoDB存储引擎》</a>一书进行深入学习。</p><p>（🎶Bee🐝Bee🐝Honey❤️Bee🐝Lovely❤️）</p><h2 id="6-其他🐝🐝🐝🐝🐝🐝"><a href="#6-其他🐝🐝🐝🐝🐝🐝" class="headerlink" title="6 其他🐝🐝🐝🐝🐝🐝"></a>6 其他🐝🐝🐝🐝🐝🐝</h2><p>本周想要找一些电台节目在通勤的时候收听，学习一些豆知识。</p><p>但我没有完成，我有罪。</p><p>（🎶Bee🐝Bee🐝Honey❤️Bee🐝Lovely❤️）</p><h1 id="总结与反思"><a href="#总结与反思" class="headerlink" title="总结与反思"></a>总结与反思</h1><p>重新思考了以后希望发展的方向后，记录的内容貌似与后端技术渐行渐远了，实际上也会继续保持这一方面的学习的。</p><p>希望我的脑子还能转的过来。</p><p>本周因为在适应新的作息时间，所以暂时没有什么反思的，唯一值得说的一点还是计划好中午的空闲时间和晚上的部分时间的内容，控制质量。</p><p>（🐝🐝完🐝🐝）</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
     
     
     <categories>
       
-      <category>学习记录</category>
+      <category>Rust</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>杂谈</tag>
+      <tag>Rust</tag>
       
-      <tag>周报</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>2024.7.8-7.14周报</title>
-    <link href="/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/report/weekly_report240714/"/>
-    <url>/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/report/weekly_report240714/</url>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="例行的废话开头"><a href="#例行的废话开头" class="headerlink" title="例行的废话开头"></a>例行的废话开头</h1><p>虽然说是例行，但其实也才写了第二次。至于为什么那么久才更第二次，全都是因为自己的某些原因以及近期迈入了新环境（本身码了很多字，但感觉不像自己做的事，又删掉力）。</p><p>逐步进入新环境的一周，感觉做事又有了一些动力，某种意义上也规律了起来，每天看着自己的计划都感觉很充实，望一切都向好的方向继续发展。</p><h1 id="“极限脱出：9999”的一周干了什么"><a href="#“极限脱出：9999”的一周干了什么" class="headerlink" title="“极限脱出：9999”的一周干了什么"></a>“极限脱出：9999”的一周干了什么</h1><p>本周没有极限，也没有脱出，有的只是在机缘巧合之下从今日迎来降生第10000天的好友处得知的本人降生第9999天纪念日。本周由于在做迈入新环境的准备，所以本周并没有做什么值得记录的工作，唯一想要记录的是跑完了FFXIV 7.0的主线。</p><h2 id="忆黄金之旅"><a href="#忆黄金之旅" class="headerlink" title="忆黄金之旅"></a>忆黄金之旅</h2><h3 id="“死或生”"><a href="#“死或生”" class="headerlink" title="“死或生”"></a>“死或生”</h3><p>7.0的整体基调确实是一种忙完了学习和工作后去海边度假的感觉，很喜欢踏上新大陆的那种新鲜感，对一切陌生的文化都是非常好奇的。虽说前半段的王选部分和中期的西部荒野剧情上讲不怎样，但是对于一个设定厨和作为一个冒险者而言，这一段旅途得到了极大的满足。有关试炼、有关生死观的讨论，一切的一切都是新奇的，尤其是对于生死观的讨论部分，这也是贯穿整个7.0的一个主题。</p><p>谈到生死观的主题，想起了6.0的主题是“生命的答案”，每一个角色在旅途的过程中都找到了自己生命的答案。在那段时间里，我也在经历有关生死之事，至少从那个时候开始，我就开始思考自己的答案是什么，因为“生命的答案”这一问题，实际上也是自己人生的目标，而我总觉得自己在某一阶段开始丧失了这个目标，一直到现在，至少还没完全找到。</p><pre><code class="hljs">脑海中充斥着这种问题我活着的意义到底是什么越来越想不明白连睁眼都觉得好麻烦小时候翘首以盼那个远在未来的自己是在哪里和他走散了呢镜中倒映出的是陌生的他人                        ——《人は夢を二度見る》</code></pre><p>这是我做的很不像我自己的其中一件事，对着一首歌的歌词共情了很久。诚然这首歌刚好在那一段时间发行，歌词确实和我的处境很像，让我思考我到底在哪里和以前的我走散了。</p><p>在经过辅导和自我思考之后，我想清楚了一些事情，就像下面歌词里说的一样。</p><pre><code class="hljs">啊 梦并非只有一次就像在床上睡回笼觉一样只要再做一次就好了一定会如那时一样不知不觉地兴奋期待起来为了实现而去做梦要不就再做一次梦吧?将那些认为不可能的在那一天放弃的梦想拾起                        ——《人は夢を二度見る》</code></pre><p>至少在想明白之后，在捡拾起不知何时遗弃掉的梦想之后，确实慢慢兴奋起来了，把我从整个2022年到2023年上半年一层灰色滤镜笼罩的世界中拉了出来，对生活又有了一些新的期盼。然而好景并不长，现实并不像回笼觉那样，也并非翻个身就能得到好的结果的，这一现实又摆在了自己的面前。不过，也没有什么更加困难的事了，慢慢在路上摸索答案吧。</p><p>虽然跑题了，但是这是我在两年多以前思考到现在的问题，我希望在这里进行记录。</p><h3 id="我并不宽宏大量，我是自私的"><a href="#我并不宽宏大量，我是自私的" class="headerlink" title="我并不宽宏大量，我是自私的"></a>我并不宽宏大量，我是自私的</h3><p>拉回到7.0的话题上来。在这段旅途中，给我印象最深的还是最后一张地图的探险，毕竟一句话是这样说的——“杀人别用亲情刀”。</p><p>整张地图的情怀，BGM的烘托，再加上几段角色和亲人的分别，构成了我对7.0剧情感触最深的画像。最终地图的设定是&#9632;&#9632;&#9632;&#9632;的（为了防止剧透暂且不显式地表现出来，虽然并没有人看），让我联想到了FFX的梦中的Zanarkand和世界奇妙物语其中大家都希望活在梦里的一集。</p><p>游戏中的主角希望关停&#9632;&#9632;&#9632;&#9632;来拯救整个世界，包括其他的镜像世界，按理玩RPG代入的我也应当有这样的愿望，但这一次我暂时不想这么做。</p><p>我并不想追求永生，但我有执念，我希望那个人能够一直陪着我，至少到我觉得我的报答到位了（感觉“报答”也用的不太合适），并且问到了那个人在生命的最后触及到了她所认为的自己的答案之后，我也许才会安心的放手。至于这个时间是多久，我并不在乎，我只想满足我的一己私欲。在这一层，我表现得并不像现实中的我那样大度，这也许是我压抑在心底深处的某一面吧。对我使用勾玉的话，大概率是会看到五把黑色心锁的。</p><h3 id="流水账的最后"><a href="#流水账的最后" class="headerlink" title="流水账的最后"></a>流水账的最后</h3><p>发现自己写到最后，并没有谈及过多的游戏内容和游戏体验，主要还是释放了自己的感情，再加上许久未写长篇大论，没有逻辑的内容如流水账一般，影响了观感还请见谅。</p><p>最后，BGM如果成功配上了的话还请大家欣赏，是最后一张隐藏图的BGM，在我心里和To Zanarkand以及安宁平原的BGM一样，是使我平静下来的一首BGM，尤其是明显转调的部分，每一次都感觉转在了自己的心上。</p><h1 id="总结与反思"><a href="#总结与反思" class="headerlink" title="总结与反思"></a>总结与反思</h1><p>这一周也没有什么好总结好反思的，希望下周加油安排好工作和生活吧ww</p><p>（完）</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>学习记录</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>杂谈</tag>
-      
-      <tag>周报</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>2024.6.10-6.16周报</title>
-    <link href="/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/report/weekly_report240617/"/>
-    <url>/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/report/weekly_report240617/</url>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="开头的一些废话"><a href="#开头的一些废话" class="headerlink" title="开头的一些废话"></a>开头的一些废话</h1><p>2024年已快过半，感觉这小半年来看了很多东西但又像没看一样，各类笔记记录也都零零散散的。刚好在之前规范了自己记录学习内容和各类idea的方式，通常也会在晚上睡前梳理一遍今天内容的大纲，进而想着像写工作日报周报一样，也对每周的内容进行一个汇总（变相给自己没什么人看的主页增添内容，给自己上压力催更）。</p><p>关于内容，一般而言会分为：</p><ul><li>平时的算法练习（Leetcode main，日替和周赛双周赛练习）及思路分析总结；</li><li>最近感兴趣的领域的内容学习记录（近期大概是电路基础、数学以及&#9632;&#9632;&#9632;&#9632;，还有反复看了半天的”abandon”的图形学）；</li><li>外语学习（大概是保持语感，最近在跟看<a href="https://book.douban.com/subject/27116778/">英语词根与单词的说文解字</a>，一方面是为了学习词根尝试扩展词汇量，另一方面是为了&#9632;&#9632;&#9632;&#9632;，并且为了&#9632;&#9632;&#9632;&#9632;，后续大概还准备看词根、词源相关的语言学资料）；</li><li>阅读的记录（不是正式的笔记，大概是一两句简单的感想，也会去参考别人的书评，其中一个目的也是为了&#9632;&#9632;&#9632;&#9632;）；</li><li>技术文档阅读记录（和前面的非技术类书籍资料分开记录）；</li><li>其他内容的摘录（来自各类SNS的感兴趣的信息记录，像<a href="https://www.reddit.com/r/Lunamos/comments/1dfsds3/%E6%8F%BD%E6%9C%88%E5%91%A8%E5%88%8A11_%E6%97%A7%E4%B8%96%E4%B9%8B%E6%9C%88%E7%9A%84%E5%B0%8F%E5%A4%9C%E6%9B%B2/">Lunamos的红迪频道的揽月周刊</a>一般的记录，说是SNS其实还包括一些RSS订阅源的内容，也许会有一些观影的记录，还是为了&#9632;&#9632;&#9632;&#9632;）；</li><li>考虑中的新的学习计划（目前考虑继续Rust和ArkTS的学习）；</li></ul><p>最后应该还有一点对本周内容的总结与反思。</p><p>每周的周报正篇大标题也许会有不一样的东西。</p><p><strong>（&#9632;&#9632;&#9632;&#9632;暂不公开）</strong></p><h1 id="“正义"><a href="#“正义" class="headerlink" title="“正义&lt;命运”的一周做了什么"></a>“正义&lt;命运”的一周做了什么</h1><p>这一周看了源刚放出没多久的<a href="https://movie.douban.com/subject/34822168/">Seed Freedom剧场版</a>，名场面过多笑得睡不着觉，取其中之一作为本周的标题，为无聊的主页增添一点喜剧色彩（电波系的）。</p><h2 id="1-算法练习记录"><a href="#1-算法练习记录" class="headerlink" title="1 算法练习记录"></a>1 算法练习记录</h2><h3 id="0610-0616日替算法题"><a href="#0610-0616日替算法题" class="headerlink" title="0610-0616日替算法题"></a>0610-0616日替算法题</h3><ul><li><a href="https://leetcode.cn/problems/boats-to-save-people/description/?envType=daily-question&envId=2024-06-10">lc881.救生艇</a><ul><li>简单的贪心，先排序，将尽量轻的和尽量重的安排在一条船上；</li><li>使用双指针分别指向体重最轻和最重的人；</li></ul></li><li><a href="https://leetcode.cn/problems/battleships-in-a-board/description/?envType=daily-question&envId=2024-06-11">lc419.甲板上的战舰</a><ul><li>战舰不相邻-&gt;直接枚举战舰的一个端点即可，因为每个战舰是一个连通分量，统计连通分量的数量即可；</li></ul></li><li><a href="https://leetcode.cn/problems/account-balance-after-rounded-purchase/description/?envType=daily-question&envId=2024-06-12">lc2806.取整购买后的账户余额</a><ul><li>简单的四舍五入；</li></ul></li><li><a href="https://leetcode.cn/problems/maximum-elegance-of-a-k-length-subsequence/description/?envType=daily-question&envId=2024-06-13">lc2813.子序列最大优雅度</a></li><li><a href="https://leetcode.cn/problems/visit-array-positions-to-maximize-score/description/?envType=daily-question&envId=2024-06-14">lc2786.访问数组中的位置使分数最大</a><ul><li>个人分析时能想到了dp的思路，但由于题目要求看错，导致最后的结果错误，但思路没有问题，<code>dp[i]</code>的状态定义为移动到i的最大得分，但状态转移需要考虑之前的所有可能性，时间复杂度高；</li><li>题解的优化思路：只使用两个位置保存数据，一个记录由奇数转移过来的分数，另一个记录由偶数转移过来的最大分数，只需一次遍历即可；</li></ul></li><li><a href="https://leetcode.cn/problems/maximum-beauty-of-an-array-after-applying-operation/description/?envType=daily-question&envId=2024-06-15">lc2779.数组的最大美丽值</a><ul><li>排序+滑动窗口，可以排序是因为根据子序列的定义，元素的顺序对数组的美丽值没有影响；<ul><li>特殊题设要求下的子序列的顺序无关性（有点拗口，但自己懂）；</li></ul></li></ul></li><li><a href="https://leetcode.cn/problems/longest-uncommon-subsequence-i/description/?envType=daily-question&envId=2024-06-16">lc521.最长特殊序列Ⅰ</a></li></ul><p>总的看下来，每次看到序列题都感觉CPU烧了，和序列题的相性不好，要继续加练。</p><h3 id="周赛与双周赛"><a href="#周赛与双周赛" class="headerlink" title="周赛与双周赛"></a>周赛与双周赛</h3><p>关于周赛和双周赛一般是学习和总结上一周的竞赛内容。</p><ul><li>第401场周赛内容地址：<a href="https://leetcode.cn/contest/weekly-contest-401/">https://leetcode.cn/contest/weekly-contest-401/</a></li><li>第132场双周赛内容地址：<a href="https://leetcode.cn/contest/biweekly-contest-132/">https://leetcode.cn/contest/biweekly-contest-132/</a></li></ul><p>（周赛内容工事中）</p><h2 id="2-电路基础内容"><a href="#2-电路基础内容" class="headerlink" title="2 电路基础内容"></a>2 电路基础内容</h2><p>电路部分主要是想要捡起以前本科专业的内容，或者说“捡起”这一词并不准确，是在本科选修课的基础上深入学习这一专业本该掌握、但学院并未开设相应课程的内容。</p><p>第一步的打算是补完常见元器件的基础和简单接触不同元器件常用的电路应用。</p><p>本周主要学习了：</p><ul><li>电阻电路的分析、戴维宁等效电路、常用的电阻电路之分压器，另外经常使用的是动态电源或动态信号激励，还补充学习了小信号分析方法引入的小信号电阻，以应对后期的动态电路分析；</li><li>电容、电感的时域分析，包括以下内容：<ul><li>电容、电感的基础知识；</li><li>一阶电路时域分析（RL电路和RC电路）——零输入响应、零状态响应、完全响应（紧急复习了常微分方程内容）；</li><li>二阶电路时域分析（RLC电路：串联、并联）；</li></ul></li><li>频域分析的一些知识预备：<ul><li>复数的基本内容：表示（代数、三角形式和指数形式）；</li><li>信号与正弦信号；</li><li>相量法及常用定理的推广；</li></ul></li></ul><p>元器件的基本性质和常见的使用方式还是很重要的，但在学习到后期的时域和频域分析时，感觉到更重要的是分析和建模方法，至于数学计算上在实际使用时再考虑，并且由于现在并没有实际的场景可以进行设计（因为学习不完全的原因），这一部分内容的学习反馈不强，后期考虑继续后面的元器件的学习，之后再倒回来继续关注频域方面的内容。</p><p>另外，学习过程中主要参考了<a href="https://book.douban.com/subject/1896907/">《电路》</a>和<a href="https://book.douban.com/subject/3614183/">《The art of electronics》</a>两本书，前者是国内的电路分析教材，主要关注理论上的内容，后者也会有理论上的内容，但更多介绍了实际的应用场景（指常用的电子电路）。</p><h2 id="3-外语学习"><a href="#3-外语学习" class="headerlink" title="3 外语学习"></a>3 外语学习</h2><p>本周学习的英语词根是<a href="https://book.douban.com/subject/27116778/">英语词根与单词的说文解字</a>一书的第二部分（120个最常用的英语词根）中<code>A</code>开头的部分，并非本书中所有<code>A</code>开头的词根。</p><p>另外周报的该部分只记录近一周看过的词根及其简单溯源（深入的溯源在之后慢慢考据，也是受了<a href="https://book.douban.com/subject/36463571/">《巴别塔》</a>的影响，另一方面也是为了&#9632;&#9632;&#9632;&#9632;练习设定），并不涉及具体的词汇积累。</p><ol><li>ag，act [ L ] &#x3D; to do or drive 做；驱使<ul><li>拉丁动词<strong>agere</strong>的词干部分，相当于to do或to drive；</li><li>act来自<strong>agere</strong>的分词形式<strong>actum</strong>的词干部分，基本含义相同；</li></ul></li><li>am(at) [ L ] &#x3D; to love 爱<ul><li>am是拉丁动词<strong>amare</strong>的现在词干，而amat是动词的分词词干；</li><li>amic来自名词<strong>amicus</strong>；</li><li>在练习中出现的变体：em是am的变体；</li></ul></li><li>anim [ L ] &#x3D; life 声明<ul><li>anim源于<strong>anima</strong>，包含思想、精神、灵魂和生存等与生命现象有关的概念；</li><li>anima一词非常熟悉，第一次知道该词是FFX的同名召唤兽；</li></ul></li><li>ann，enn [ L ] &#x3D; year 年<ul><li>ann来自拉丁名词<strong>annus</strong>，意思是年，构词时常跟连接字母’-i-‘或’-u-‘；</li><li>enn是ann添加前缀时产生的音变异体；<ul><li>是否普遍存在a-&gt;e的音变异体？</li></ul></li><li>biannual和biennial的辨析；</li></ul></li><li>anthrop(o) [ GK ] &#x3D; man 人类<ul><li>词源是希腊名词<strong>anthropos</strong>，意为man或human being；</li></ul></li><li>arch [ GK ] &#x3D; rule 统治<ul><li>来自希腊名词<strong>arkhos</strong>；</li><li>派生词中arch常作ruler（统治者）或government（政体）用；</li><li>还可当前缀使用，意为chief（主要的）；</li></ul></li><li>aud(it) [ L ] &#x3D; to hear 听<ul><li>aud和audit分别来源于拉丁动词<strong>audire</strong>的现在词干和分词词干；</li></ul></li><li>aug，auct，auth [ L ] &#x3D; to increase 增加<ul><li>来源于拉丁动词<strong>aguere</strong>，过去分词<strong>auctus</strong>和变体<strong>auth</strong>，基本意思都是to increase或to cause to grow；</li></ul></li></ol><p>在进行词根学习的同时，也进行着词缀的收集，尝试着整理构词规律，留下了一些问题但尚未解决，留作下一周的课题。</p><h2 id="4-阅读记录"><a href="#4-阅读记录" class="headerlink" title="4 阅读记录"></a>4 阅读记录</h2><p>本周并未进行其他的书籍阅读，暂定将<a href="https://book.douban.com/subject/36463571/">《巴别塔》</a>的内容填补到本周的阅读内容中来。</p><p>(阅读记录工事中)</p><h2 id="5-技术文档阅读记录"><a href="#5-技术文档阅读记录" class="headerlink" title="5 技术文档阅读记录"></a>5 技术文档阅读记录</h2><p>本周无，我有罪.jpg。</p><h2 id="6-其他"><a href="#6-其他" class="headerlink" title="6 其他"></a>6 其他</h2><p>本周主要从红迪的订阅频道中看到了很多新鲜的东西：</p><ol><li>RetroTink4K：对我暂时好像还没啥用，虽然有想过去搞一台CRT回来；</li><li>《Techno Feudalism：What Killed Capitalism》：频道中推荐的一本书，讲技术封建主义，纳入读书清单.jpg；</li><li>《The Art of Doing Science and Engineering》：还是推书，感觉像是抽象层面的内容，不一定看得进去；</li><li><a href="https://www.cartographersguild.com/">幻想世界地图为主题的论坛</a>：里面有很多幻想风格RPG的世界大地图，设定考据党狂喜；</li><li><a href="https://monseter6502.com/">6502CPU的板级复刻项目</a>：使用了MOS管，之前尝试使用Rust写过NES Emulator，NES就使用的是6502改，单纯是对硬件实现感兴趣（至于跟着教程写的NES Emulator已经被自己腰斩或者说搁置，之后再继续）；<ul><li>另外，Emulator的实现主要参考了<a href="https://bugzmanov.github.io/nes_ebook/">Writing NES Emulator in Rust</a>和NES wiki以及6502的参考手册，拾起了一点以前写汇编的回忆；</li></ul></li><li>Game Maker’s Toolkit新出的“The 100 Games That Taught Me Game Design”：还没看，感觉可以继续补完樱井政博的ytb channel——<a href="https://www.youtube.com/@sora_sakurai_jp">桜井政博のゲーム作るには</a>，然后结合着看，看看不同制作者之间的设计思路；</li><li>A parttern Language：紧接在上一条下面的回复中提及的内容，一开始是用在建筑学上，描述现代乌托邦社区建设指南，也用在游戏上，后面还接着推荐了一篇文章《形式抽象设计工具》（名字不确定，作者Doug Church）。</li></ol><h1 id="总结与反思"><a href="#总结与反思" class="headerlink" title="总结与反思"></a>总结与反思</h1><p>写到这里想起来，本职干的后端开发的内容并没有记录在此处，也许会有部分内容出没在技术文档的阅读中。</p><p>本周主要还是以下三个问题，和没开始记录的时候一样：</p><ol><li>学的内容过杂：突出一个既要又要还要，虽说技多不压身但好像每一项都不深，也就没办法称为“技”；</li><li>内容记录了但入脑不深，晚上有梳理的过程了但还要加强记忆.jpg；</li><li>效率还是有待提升，纠正自己多线程的习惯。</li></ol><p>最后附上几幅图，是像素图绘画练习，来源是《像素艺术背景画法完全解析》，画完看着挺像那么回事的。（作为版底）</p><div style="text-align:center;">  <img src="/img/weekly_report240617/apple.png" alt="apple" style="margin: 5px;">  <img src="/img/weekly_report240617/pencil.png" alt="pencil" style="margin: 5px;">  <img src="/img/weekly_report240617/house.png" alt="house" style="margin: 5px;">  <img src="/img/weekly_report240617/umbrella.png" alt="umbrella" style="margin: 5px;">  <img src="/img/weekly_report240617/dice.png" alt="dice" style="margin: 5px;"></div><p>（完）</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>学习记录</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>杂谈</tag>
-      
-      <tag>周报</tag>
+      <tag>编程语言</tag>
       
     </tags>
     
